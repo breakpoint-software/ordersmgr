@@ -1,0 +1,14 @@
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\obj\Release\netcoreapp2.1\OrdersMgr.Model.csprojAssemblyReference.cache
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\obj\Release\netcoreapp2.1\OrdersMgr.Model.csproj.CoreCompileInputs.cache
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\bin\Release\netcoreapp2.1\OrdersMgr.Model.deps.json
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\bin\Release\netcoreapp2.1\OrdersMgr.Model.runtimeconfig.json
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\bin\Release\netcoreapp2.1\OrdersMgr.Model.runtimeconfig.dev.json
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\bin\Release\netcoreapp2.1\OrdersMgr.Model.dll
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\bin\Release\netcoreapp2.1\OrdersMgr.Model.pdb
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\obj\Release\netcoreapp2.1\OrdersMgr.Model.RazorAssemblyInfo.cache
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\obj\Release\netcoreapp2.1\OrdersMgr.Model.RazorAssemblyInfo.cs
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\obj\Release\netcoreapp2.1\OrdersMgr.Model.AssemblyInfoInputs.cache
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\obj\Release\netcoreapp2.1\OrdersMgr.Model.AssemblyInfo.cs
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\obj\Release\netcoreapp2.1\OrdersMgr.Model.RazorTargetAssemblyInfo.cache
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\obj\Release\netcoreapp2.1\OrdersMgr.Model.dll
+C:\Leo\Apps\OrdersMgr\OrdersMgr.Model\obj\Release\netcoreapp2.1\OrdersMgr.Model.pdb

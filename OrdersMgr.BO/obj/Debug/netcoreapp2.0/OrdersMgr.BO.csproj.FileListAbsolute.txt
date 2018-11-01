@@ -1,0 +1,11 @@
+C:\Leo\Apps\OrdersMgr\OrdersMgr.BO\bin\Debug\netcoreapp2.0\OrdersMgr.BO.deps.json
+C:\Leo\Apps\OrdersMgr\OrdersMgr.BO\bin\Debug\netcoreapp2.0\OrdersMgr.BO.runtimeconfig.json
+C:\Leo\Apps\OrdersMgr\OrdersMgr.BO\bin\Debug\netcoreapp2.0\OrdersMgr.BO.runtimeconfig.dev.json
+C:\Leo\Apps\OrdersMgr\OrdersMgr.BO\bin\Debug\netcoreapp2.0\OrdersMgr.BO.dll
+C:\Leo\Apps\OrdersMgr\OrdersMgr.BO\obj\Debug\netcoreapp2.0\OrdersMgr.BO.csproj.CoreCompileInputs.cache
+C:\Leo\Apps\OrdersMgr\OrdersMgr.BO\obj\Debug\netcoreapp2.0\OrdersMgr.BO.AssemblyInfoInputs.cache
+C:\Leo\Apps\OrdersMgr\OrdersMgr.BO\obj\Debug\netcoreapp2.0\OrdersMgr.BO.AssemblyInfo.cs
+C:\Leo\Apps\OrdersMgr\OrdersMgr.BO\obj\Debug\netcoreapp2.0\OrdersMgr.BO.csprojAssemblyReference.cache
+C:\Leo\Apps\OrdersMgr\OrdersMgr.BO\bin\Debug\netcoreapp2.0\OrdersMgr.BO.pdb
+C:\Leo\Apps\OrdersMgr\OrdersMgr.BO\obj\Debug\netcoreapp2.0\OrdersMgr.BO.dll
+C:\Leo\Apps\OrdersMgr\OrdersMgr.BO\obj\Debug\netcoreapp2.0\OrdersMgr.BO.pdb
