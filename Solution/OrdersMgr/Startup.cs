@@ -70,7 +70,7 @@ namespace OrdersMgr
 
             app.UseCors(builder => builder.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
             app.UseAuthentication();
-            app.UseMvc(routes => routes.MapRoute("Default", "v1/{controller}/{action}/{id}", new { controller = "Values", action = "Get", id = RouteParameter.Optional }));
+            app.UseMvc(routes => routes.MapRoute("Default", "v1/{controller}/{action}/{id}", new { controller = "Orders", action = "Hello", id = RouteParameter.Optional }));
         }
     }
 }

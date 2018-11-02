@@ -26,3 +26,17 @@ C:\Leo\Apps\demo\ordersmgr\OrdersMgr.BO\obj\Debug\netcoreapp2.1\OrdersMgr.BO.Ass
 C:\Leo\Apps\demo\ordersmgr\OrdersMgr.BO\obj\Debug\netcoreapp2.1\OrdersMgr.BO.csproj.CopyComplete
 C:\Leo\Apps\demo\ordersmgr\OrdersMgr.BO\obj\Debug\netcoreapp2.1\OrdersMgr.BO.dll
 C:\Leo\Apps\demo\ordersmgr\OrdersMgr.BO\obj\Debug\netcoreapp2.1\OrdersMgr.BO.pdb
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\bin\Debug\netcoreapp2.1\OrdersMgr.BO.deps.json
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\bin\Debug\netcoreapp2.1\OrdersMgr.BO.runtimeconfig.json
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\bin\Debug\netcoreapp2.1\OrdersMgr.BO.runtimeconfig.dev.json
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\bin\Debug\netcoreapp2.1\OrdersMgr.BO.dll
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\bin\Debug\netcoreapp2.1\OrdersMgr.BO.pdb
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\bin\Debug\netcoreapp2.1\OrdersMgr.Model.dll
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\bin\Debug\netcoreapp2.1\OrdersMgr.Model.pdb
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\obj\Debug\netcoreapp2.1\OrdersMgr.BO.csprojAssemblyReference.cache
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\obj\Debug\netcoreapp2.1\OrdersMgr.BO.csproj.CoreCompileInputs.cache
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\obj\Debug\netcoreapp2.1\OrdersMgr.BO.AssemblyInfoInputs.cache
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\obj\Debug\netcoreapp2.1\OrdersMgr.BO.AssemblyInfo.cs
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\obj\Debug\netcoreapp2.1\OrdersMgr.BO.csproj.CopyComplete
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\obj\Debug\netcoreapp2.1\OrdersMgr.BO.dll
+C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.BO\obj\Debug\netcoreapp2.1\OrdersMgr.BO.pdb

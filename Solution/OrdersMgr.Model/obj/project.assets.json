@@ -11508,11 +11508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Leo\\Apps\\demo\\ordersmgr\\OrdersMgr.Model\\OrdersMgr.Model.csproj",
+      "projectUniqueName": "C:\\Leo\\Apps\\demo\\ordersmgr\\Solution\\OrdersMgr.Model\\OrdersMgr.Model.csproj",
       "projectName": "OrdersMgr.Model",
-      "projectPath": "C:\\Leo\\Apps\\demo\\ordersmgr\\OrdersMgr.Model\\OrdersMgr.Model.csproj",
+      "projectPath": "C:\\Leo\\Apps\\demo\\ordersmgr\\Solution\\OrdersMgr.Model\\OrdersMgr.Model.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Leo\\Apps\\demo\\ordersmgr\\OrdersMgr.Model\\obj\\",
+      "outputPath": "C:\\Leo\\Apps\\demo\\ordersmgr\\Solution\\OrdersMgr.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

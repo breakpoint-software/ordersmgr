@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <UserSecretsId>aspnet-OrdersMgr-19D0E88C-1163-4ED9-989B-D5EB88121794</UserSecretsId>
     <WebProject_DirectoryAccessLevelKey>0</WebProject_DirectoryAccessLevelKey>
+    <AssemblyName>OrdersMgr</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

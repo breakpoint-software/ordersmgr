@@ -21,6 +21,13 @@ namespace OrdersMgr.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
+        public ActionResult<IEnumerable<OrderModel>> Hello()
+        {
+            return Ok("Hello from Orders Mgr!");
+        }
+
+        [HttpGet]
         public ActionResult<IEnumerable<OrderModel>> Get()
         {
             return Ok(_facade.GetOrders());
