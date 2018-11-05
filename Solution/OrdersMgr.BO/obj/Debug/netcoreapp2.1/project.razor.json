@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Leo\\Apps\\New folder (2)\\ordersmgr\\Solution\\OrdersMgr.BO\\OrdersMgr.BO.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "MVC-2.0",
+    "LanguageVersion": "2.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.0"
+      }
+    ]
+  }
+}
