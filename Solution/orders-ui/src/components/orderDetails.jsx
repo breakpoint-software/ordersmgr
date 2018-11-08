@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { fetchFullOrder, updateProductOrder } from "../actions/orderAction";
 import { BootstrapTable, TableHeaderColumn } from "react-bootstrap-table";
 import { FaPlus, FaMinus } from "react-icons/fa";
+import { formatDate, formatNumber } from "./helpers";
 
 class OrderDetails extends Component {
   componentWillMount() {
@@ -83,7 +84,7 @@ class OrderDetails extends Component {
                 </div>
                 <div className="col-6">
                   <b>Date:&nbsp;</b>
-                  {this.props.selectedOrder.date}
+                  {this.props.formatDate(this.props.selectedOrder.date)}
                 </div>
               </div>
               <div className="row">
@@ -94,7 +95,7 @@ class OrderDetails extends Component {
                 </div>
                 <div className="col-6">
                   <b>Total:&nbsp;</b>
-                  {this.props.selectedOrder.total}
+                  {formatNumber(this.props.selectedOrder.total, 2)}
                 </div>
               </div>
             </div>
@@ -128,6 +129,7 @@ class OrderDetails extends Component {
                   dataField="unitaryPrice"
                   dataAlign="right"
                   headerAlign="right"
+                  formatNumber={this.props.formatNumber}
                 >
                   Unitary Price
                 </TableHeaderColumn>
@@ -142,6 +144,7 @@ class OrderDetails extends Component {
                   dataField="subtotal"
                   dataAlign="right"
                   headerAlign="right"
+                  dataFormat={this.props.formatNumber}
                 >
                   Subtotal
                 </TableHeaderColumn>
@@ -168,7 +171,11 @@ OrderDetails.propTypes = {
   selectedOrder: PropTypes.object.isRequired
 };
 const MapOrdersToState = state => ({
-  selectedOrder: state.orderReducer.selectedOrder
+  selectedOrder: state.orderReducer.selectedOrder,
+  formatDate: formatDate,
+  formatNumber: number => {
+    return formatNumber(number, 2);
+  }
 });
 
 export default connect(

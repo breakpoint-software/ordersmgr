@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { fetchOrders } from "../actions/orderAction";
 import { BootstrapTable, TableHeaderColumn } from "react-bootstrap-table";
 import { withRouter } from "react-router-dom";
+import { formatDate, formatNumber } from "./helpers";
 
 class Orders extends Component {
   componentWillMount() {
@@ -47,18 +48,6 @@ class Orders extends Component {
     };
   }
 
-  dateFormatter = cell => {
-    if (!cell) {
-      return "";
-    }
-
-    return new Intl.DateTimeFormat("en-GB", {
-      year: "numeric",
-      month: "numeric",
-      day: "2-digit"
-    }).format(new Date(cell));
-  };
-
   render() {
     return (
       <div className="container-fluid">
@@ -93,8 +82,12 @@ class Orders extends Component {
             dataAlign="center"
             headerAlign="center"
             dataSort
-            filter={{ type: "TextFilter", delay: 1000 }}
-            dataFormat={this.dateFormatter}
+            filter={{
+              type: "DateFilter",
+              delay: 1000,
+              withoutEmptyComparatorOption: true
+            }}
+            dataFormat={this.props.formatDate}
           >
             Date
           </TableHeaderColumn>
@@ -103,7 +96,11 @@ class Orders extends Component {
             dataAlign="right"
             headerAlign="right"
             dataSort
-            filter={{ type: "TextFilter", delay: 1000 }}
+            filter={{
+              type: "NumberFilter",
+              delay: 1000,
+              withoutEmptyComparatorOption: true
+            }}
           >
             Quantity
           </TableHeaderColumn>
@@ -112,7 +109,12 @@ class Orders extends Component {
             dataAlign="right"
             headerAlign="right"
             dataSort
-            filter={{ type: "TextFilter", delay: 1000 }}
+            dataFormat={this.props.formatNumber}
+            filter={{
+              type: "NumberFilter",
+              delay: 1000,
+              withoutEmptyComparatorOption: true
+            }}
           >
             Total
           </TableHeaderColumn>
@@ -128,7 +130,11 @@ Orders.propTypes = {
   history: PropTypes.object.isRequired
 };
 const MapOrdersToState = state => ({
-  orders: state.orderReducer.items
+  orders: state.orderReducer.items,
+  formatDate: formatDate,
+  formatNumber: number => {
+    return formatNumber(number, 2);
+  }
 });
 export default withRouter(
   connect(
