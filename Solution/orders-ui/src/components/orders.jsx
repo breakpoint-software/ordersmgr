@@ -56,7 +56,7 @@ class Orders extends Component {
           options={this.options}
           pagination={true}
         >
-          <TableHeaderColumn isKey={true} dataField="id" hidden>
+          <TableHeaderColumn isKey={true} dataField="id" hidden="true">
             id
           </TableHeaderColumn>
           <TableHeaderColumn
