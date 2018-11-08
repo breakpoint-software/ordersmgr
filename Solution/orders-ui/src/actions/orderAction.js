@@ -8,13 +8,14 @@ export const fetchOrders = () => dispatch => {
       "Content-Type": "application/json"
     }
   })
-    .then(res => res.json(), err => console.error(err))
+    .then(res => res.json())
     .then(orders =>
       dispatch({
         type: FETCH_ORDERS,
         payload: orders
       })
-    );
+    )
+    .catch(ex => console.log(ex));
 };
 
 export const fetchFullOrder = orderId => dispatch => {
@@ -32,7 +33,8 @@ export const fetchFullOrder = orderId => dispatch => {
         type: FETCH_ORDER_WITH_DETAILS,
         payload: fullOrder
       })
-    );
+    )
+    .catch(ex => console.log(ex));
 };
 
 export const updateProductOrder = data => dispatch => {
@@ -54,5 +56,6 @@ export const updateProductOrder = data => dispatch => {
         type: FETCH_ORDER_WITH_DETAILS,
         payload: fullOrder
       })
-    );
+    )
+    .catch(ex => console.log(ex));
 };

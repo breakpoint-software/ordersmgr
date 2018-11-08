@@ -2,6 +2,6 @@
     "appService.zipIgnorePattern": [
         "node_modules{,/**}"
     ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/b5dc689a-ee6a-4c2f-9691-a5707ff277bb/resourceGroups/appsvc_rg_linux_centralus/providers/Microsoft.Web/sites/ordersmgr",
-    "appService.deploySubpath": ""
+    "appService.deploySubpath": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/b5dc689a-ee6a-4c2f-9691-a5707ff277bb/resourceGroups/appsvc_rg_linux_centralus/providers/Microsoft.Web/sites/ordersmgr1"
 }
