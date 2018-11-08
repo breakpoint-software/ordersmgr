@@ -14012,11 +14012,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Leo\\Apps\\demo\\ordersmgr\\Solution\\OrdersMgr\\OrdersMgr.csproj",
+      "projectUniqueName": "C:\\Leo\\Apps\\New folder\\ordersmgr\\Solution\\OrdersMgr\\OrdersMgr.csproj",
       "projectName": "OrdersMgr",
-      "projectPath": "C:\\Leo\\Apps\\demo\\ordersmgr\\Solution\\OrdersMgr\\OrdersMgr.csproj",
+      "projectPath": "C:\\Leo\\Apps\\New folder\\ordersmgr\\Solution\\OrdersMgr\\OrdersMgr.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Leo\\Apps\\demo\\ordersmgr\\Solution\\OrdersMgr\\obj\\",
+      "outputPath": "C:\\Leo\\Apps\\New folder\\ordersmgr\\Solution\\OrdersMgr\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14035,11 +14035,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Leo\\Apps\\demo\\ordersmgr\\Solution\\OrdersMgr.BO\\OrdersMgr.BO.csproj": {
-              "projectPath": "C:\\Leo\\Apps\\demo\\ordersmgr\\Solution\\OrdersMgr.BO\\OrdersMgr.BO.csproj"
+            "C:\\Leo\\Apps\\New folder\\ordersmgr\\Solution\\OrdersMgr.BO\\OrdersMgr.BO.csproj": {
+              "projectPath": "C:\\Leo\\Apps\\New folder\\ordersmgr\\Solution\\OrdersMgr.BO\\OrdersMgr.BO.csproj"
             },
-            "C:\\Leo\\Apps\\demo\\ordersmgr\\Solution\\OrdersMgr.Model\\OrdersMgr.Model.csproj": {
-              "projectPath": "C:\\Leo\\Apps\\demo\\ordersmgr\\Solution\\OrdersMgr.Model\\OrdersMgr.Model.csproj"
+            "C:\\Leo\\Apps\\New folder\\ordersmgr\\Solution\\OrdersMgr.Model\\OrdersMgr.Model.csproj": {
+              "projectPath": "C:\\Leo\\Apps\\New folder\\ordersmgr\\Solution\\OrdersMgr.Model\\OrdersMgr.Model.csproj"
             }
           }
         }

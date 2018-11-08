@@ -40,3 +40,17 @@ C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.Model\obj\Debug\netcoreapp2.1\Orde
 C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.Model\obj\Debug\netcoreapp2.1\OrdersMgr.Model.RazorTargetAssemblyInfo.cache
 C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.Model\obj\Debug\netcoreapp2.1\OrdersMgr.Model.dll
 C:\Leo\Apps\demo\ordersmgr\Solution\OrdersMgr.Model\obj\Debug\netcoreapp2.1\OrdersMgr.Model.pdb
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\bin\Debug\netcoreapp2.1\OrdersMgr.Model.deps.json
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\bin\Debug\netcoreapp2.1\OrdersMgr.Model.runtimeconfig.json
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\bin\Debug\netcoreapp2.1\OrdersMgr.Model.runtimeconfig.dev.json
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\bin\Debug\netcoreapp2.1\OrdersMgr.Model.dll
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\bin\Debug\netcoreapp2.1\OrdersMgr.Model.pdb
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\obj\Debug\netcoreapp2.1\OrdersMgr.Model.csprojAssemblyReference.cache
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\obj\Debug\netcoreapp2.1\OrdersMgr.Model.csproj.CoreCompileInputs.cache
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\obj\Debug\netcoreapp2.1\OrdersMgr.Model.RazorAssemblyInfo.cache
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\obj\Debug\netcoreapp2.1\OrdersMgr.Model.RazorAssemblyInfo.cs
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\obj\Debug\netcoreapp2.1\OrdersMgr.Model.AssemblyInfoInputs.cache
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\obj\Debug\netcoreapp2.1\OrdersMgr.Model.AssemblyInfo.cs
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\obj\Debug\netcoreapp2.1\OrdersMgr.Model.RazorTargetAssemblyInfo.cache
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\obj\Debug\netcoreapp2.1\OrdersMgr.Model.dll
+C:\Leo\Apps\New folder\ordersmgr\Solution\OrdersMgr.Model\obj\Debug\netcoreapp2.1\OrdersMgr.Model.pdb
