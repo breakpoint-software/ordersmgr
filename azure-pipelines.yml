@@ -10,9 +10,10 @@ pool:
 steps:
 - task: CopyFiles@2
   inputs:
-    #sourceFolder: 'solution/orders-ui'
+    #sourceFolder: '$(Build.SourcesDirectory)'
     contents: '**\*' 
-    cleanTargetFolder: 'true' 
+    cleanTargetFolder: 'true'
+    targetFolder: '$(Build.ArtifactStagingDirectory)'
     
 - task: NodeTool@0
   inputs:
