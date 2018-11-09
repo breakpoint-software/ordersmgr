@@ -10,7 +10,7 @@ pool:
 steps:
 - task: CopyFiles@2
   inputs:
-    sourceFolder: 'solution/orders-ui'
+    #sourceFolder: 'solution/orders-ui'
     contents: '**\*' 
     cleanTargetFolder: 'true' 
     
