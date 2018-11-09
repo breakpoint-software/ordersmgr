@@ -13,9 +13,8 @@ steps:
     sourceFolder: 'c:\agent_work\1\solution\orders-ui'
     contents: '**\*' 
     targetFolder: 'c:\agent_work\1'
-    cleanTargetFolder:true 
-    #overWrite: false # Optional
-    #flattenFolders: false # Optional
+    cleanTargetFolder:'true' 
+    
 - task: NodeTool@0
   inputs:
     versionSpec: '8.x'
