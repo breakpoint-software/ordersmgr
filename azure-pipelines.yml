@@ -3,9 +3,21 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
+
 pool:
   vmImage: 'Ubuntu 16.04'
 
+# Copy Files
+# Copy files from source folder to target folder using match patterns (The match patterns will only match file paths, not folder paths)
+- task: CopyFiles@2
+  inputs:
+    #sourceFolder:  c:\agent_work\1\s\solution\orders-ui
+    #contents: '**' 
+    targetFolder: $(Build.ArtifactStagingDirectory)
+    #cleanTargetFolder: false # Optional
+    #overWrite: false # Optional
+    #flattenFolders: false # Optional
+   
 steps:
 - task: NodeTool@0
   inputs:
