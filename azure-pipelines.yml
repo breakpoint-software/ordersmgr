@@ -14,7 +14,7 @@ steps:
     sourceFolder: 'Solution/orders-ui'
     contents: '**\*' 
     cleanTargetFolder: 'true'
-    targetFolder: ''
+    targetFolder: '/'
     
 - task: NodeTool@0
   inputs:
