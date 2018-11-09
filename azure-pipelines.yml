@@ -10,7 +10,7 @@ pool:
 steps:
 - task: CopyFiles@2
   inputs:
-    sourceFolder: '$(Build.SourcesDirectory)'
+    sourceFolder: 'Solution/orders-ui'
     contents: '**\*' 
     cleanTargetFolder: 'true'
     targetFolder: '$(Build.ArtifactStagingDirectory)'
