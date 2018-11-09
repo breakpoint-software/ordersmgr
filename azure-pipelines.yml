@@ -9,7 +9,12 @@ pool:
   vmImage: 'Ubuntu 16.04'
   
 steps:
-
+- task: CopyFiles@2
+  inputs:
+    sourceFolder: '/home/vsts/work/solution/orders-ui'
+    contents: '**\*' 
+    cleanTargetFolder: 'true'
+    targetFolder: '/home/vsts/work/'
     
 - task: NodeTool@0
   inputs:
