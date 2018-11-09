@@ -10,7 +10,7 @@ pool:
 steps:
 - task: CopyFiles@2
   inputs:
-    #sourceFolder: '$(Build.SourcesDirectory)'
+    sourceFolder: '$(Build.SourcesDirectory)'
     contents: '**\*' 
     cleanTargetFolder: 'true'
     targetFolder: '$(Build.ArtifactStagingDirectory)'
