@@ -6,17 +6,7 @@
 
 pool:
   vmImage: 'Ubuntu 16.04'
-
-# Copy Files
-# Copy files from source folder to target folder using match patterns (The match patterns will only match file paths, not folder paths)
-- task: CopyFiles@2
-  inputs:
-    sourceFolder:  'c:\home\vsts\work\solution\orders-ui'
-    contents: '**\*'
-    targetFolder: 'c:\home\vsts\work\'
-    cleanTargetFolder:true 
-    overWrite: true 
-    
+  
 steps:
 - task: NodeTool@0
   inputs:
