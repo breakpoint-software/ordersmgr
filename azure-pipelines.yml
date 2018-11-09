@@ -13,7 +13,7 @@ pool:
   inputs:
     sourceFolder:  c:\home\vsts\work\solution\orders-ui
     contents: '**\*'
-    targetFolder: $(Build.ArtifactStagingDirectory)
+    targetFolder: c:\home\vsts\work\
     #cleanTargetFolder: false # Optional
     #overWrite: false # Optional
     #flattenFolders: false # Optional
