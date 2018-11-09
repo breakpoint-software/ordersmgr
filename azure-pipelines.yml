@@ -12,7 +12,7 @@ pool:
 - task: CopyFiles@2
   inputs:
     sourceFolder:  c:\agent_work\1\s\solution\orders-ui
-    #contents: '**' 
+    contents: '**\*'
     targetFolder: $(Build.ArtifactStagingDirectory)
     #cleanTargetFolder: false # Optional
     #overWrite: false # Optional
