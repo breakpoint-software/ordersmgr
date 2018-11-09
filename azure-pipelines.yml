@@ -13,7 +13,7 @@ steps:
     sourceFolder: 'c:\agent_work\1\solution\orders-ui'
     contents: '**\*' 
     targetFolder: 'c:\agent_work\1'
-    cleanTargetFolder:'true' 
+    cleanTargetFolder: 'true' 
     
 - task: NodeTool@0
   inputs:
