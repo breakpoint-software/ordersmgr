@@ -11,10 +11,10 @@ pool:
 steps:
 - task: CopyFiles@2
   inputs:
-    sourceFolder: 'c:\work\1\s\Solution\orders-ui'
+    sourceFolder: 'Solution/orders-ui'
     contents: '**\*' 
     cleanTargetFolder: 'true'
-    targetFolder: 'c:\work\1\s'
+    targetFolder: ''
     
 - task: NodeTool@0
   inputs:
