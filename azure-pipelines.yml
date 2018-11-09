@@ -14,7 +14,7 @@ steps:
     sourceFolder: 'Solution/orders-ui'
     contents: '**\*' 
     cleanTargetFolder: 'true'
-    targetFolder: './'
+    targetFolder: '$(Build.ArtifactStagingDirectory)'
     
 - task: NodeTool@0
   inputs:
