@@ -11,7 +11,7 @@ pool:
 steps:
 - task: CopyFiles@2
   inputs:
-    sourceFolder: 'Solution/orders-ui'
+    sourceFolder: '/home/vsts/work/solution/orders-ui'
     contents: '**\*' 
     cleanTargetFolder: 'true'
     targetFolder: '$(Build.ArtifactStagingDirectory)'
