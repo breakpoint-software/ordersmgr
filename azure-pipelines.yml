@@ -9,12 +9,7 @@ pool:
   vmImage: 'Ubuntu 16.04'
   
 steps:
-- task: CopyFiles@2
-  inputs:
-    sourceFolder: '/home/vsts/work/1/s/solution/orders-ui'
-    contents: '**\*' 
-    cleanTargetFolder: 'true'
-    targetFolder: '$(Build.ArtifactStagingDirectory)'
+
     
 - task: NodeTool@0
   inputs:
