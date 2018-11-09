@@ -11,9 +11,9 @@ pool:
 # Copy files from source folder to target folder using match patterns (The match patterns will only match file paths, not folder paths)
 - task: CopyFiles@2
   inputs:
-    sourceFolder:  c:\home\vsts\work\solution\orders-ui
+    sourceFolder:  'c:\home\vsts\work\solution\orders-ui'
     contents: '**\*'
-    targetFolder: c:\home\vsts\work\
+    targetFolder: 'c:\home\vsts\work\'
     #cleanTargetFolder: false # Optional
     #overWrite: false # Optional
     #flattenFolders: false # Optional
