@@ -9,12 +9,14 @@ pool:
   vmImage: 'Ubuntu 16.04'
   
 steps:
-- task: CopyFiles@2
-  inputs:
-    sourceFolder: '/home/vsts/work/solution/orders-ui'
-    contents: '**\*' 
-    cleanTargetFolder: 'true'
-    targetFolder: '/home/vsts/work/'
+
+#- task: CopyFiles@2
+ # inputs:
+  
+  #sourceFolder: '/home/vsts/work/solution/orders-ui'
+  #  contents: '**\*' 
+  #  cleanTargetFolder: 'true'
+  #  targetFolder: '/home/vsts/work/'
     
 - task: NodeTool@0
   inputs:
@@ -24,4 +26,4 @@ steps:
 - script: |
     npm install
     npm run build
-  displayName: 'npm install and build'
+  displayName: 'npm install and build ./solution/orders-ui'
