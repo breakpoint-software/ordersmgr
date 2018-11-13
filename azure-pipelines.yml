@@ -25,5 +25,5 @@ steps:
 
 - script: |
     npm install
-    npm run build
+    npm run build /home/vsts/work/solution/orders-ui
   displayName: 'npm install and build /home/vsts/work/solution/orders-ui'
