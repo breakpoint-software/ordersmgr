@@ -24,6 +24,6 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install c:\home\vsts\work\solution\orders-ui
-    npm run build c:\home\vsts\work\solution\orders-ui
-  displayName: 'npm install and build /home/vsts/work/solution/orders-ui'
+    npm install 
+    npm run build
+   displayName: 'npm install and build '
